@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "alaska-test-project"
+version = "0.0.1"
+description = "atom entrance testing"
+authors = ["Victor Lobov <1449812@mail.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
