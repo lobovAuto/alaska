@@ -1,18 +1,18 @@
 [tool.poetry]
-name = "alaska-test-project"
+name = "alaska"
 version = "0.0.1"
-description = "atom entrance testing"
-authors = ["Victor Lobov <1449812@mail.ru>"]
+description = "atom entrance test project"
+authors = ["lobov"]
 license = "MIT"
-readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 pytest = "^8.3.3"
 docker = "^7.1.0"
 requests = "^2.32.3"
 
+[tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
