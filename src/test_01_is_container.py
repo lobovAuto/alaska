@@ -7,4 +7,4 @@ def test_is_container():
     for image in list_containers:
         if image.tags[0] == "azshoo/alaska:1.0":
             condition = True
-    assert condition == True
+    assert condition == True, f"Нужная версия контейнера отсутствует"
